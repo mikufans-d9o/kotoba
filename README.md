@@ -69,5 +69,5 @@ MIT License
 
 ## Author
 
-Made with 💙 by [Your Name]  
+Made with 💙 by mikufans-d9o  
 For study use only. Suggestions welcome!
