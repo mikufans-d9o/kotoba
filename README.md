@@ -63,7 +63,7 @@ You can find sample word lists in the `samples/` folder.
 
 ## License
 
-MIT License
+BSD-3-Clause license
 
 ---
 
