@@ -1,73 +1,73 @@
-# Kotoba Dictation App
+# Kotoba 词语默写程序
 
-A lightweight Windows Forms application designed for language learners to practice word dictation using custom vocabulary lists.
+一个简洁实用的 Windows 窗体应用，用于通过导入词库进行词语默写练习，适合日语、英语等语言学习者使用。
 
-![Screenshot](./screenshot.png)
-
-## Features
-
-- 📥 Import word books (`.words` and `.means` files)
-- ✍️ Practice dictation (display meaning → input spelling)
-- ✅ Instant answer checking
-- 📊 Score and progress tracking
-- 🎲 Word order randomized every session
-- 📋 Clean and simple UI for focused learning
+![程序截图](./screenshot.png)
 
 ---
 
-## How to Use
+## ✨ 功能介绍
 
-1. **Prepare Word Files**
-   - `yourbook.words`: one word per line  
-     Example:
+- 📂 支持导入词书（`*.words` 和 `*.means` 两个文件）
+- 🧠 默写练习（显示释义 → 输入单词）
+- ✅ 实时核对答案
+- 📈 自动记录得分与进度
+- 🎲 每次启动默写顺序随机
+- 🖥️ 简洁明了的界面
+
+---
+
+## 📝 使用方法
+
+1. **准备词书文件**
+   - `*.words` 文件：每行一个单词
      ```
      こんにちは
      ありがとう
      ```
-   - `yourbook.means`: one meaning per line (must match word line-by-line)  
-     Example:
+   - `*.means` 文件：每行对应的释义（与单词一一对应）
      ```
-     Hello
-     Thank you
+     你好
+     谢谢
      ```
 
-2. **Launch the App**
-   - Click `Import Book` to select the two files.
-   - You will see the word list displayed in a table.
+2. **启动程序**
+   - 点击【导入词书】，选择 `*.words` 文件。
+   - 词书加载完成后会显示在表格中。
 
-3. **Start Dictation**
-   - Click `Start Dictation`.
-   - The app shows the meaning, and you type the corresponding word.
-   - Click `Check` or press Enter to verify your answer.
-   - The app shows results and moves to the next question after a short delay.
+3. **开始默写**
+   - 点击【开始默写】
+   - 程序将依次显示“释义”，请在文本框中输入对应的单词。
+   - 点击【核对】或按回车键进行核对。
 
-4. **At the End**
-   - You’ll see your final score and accuracy.
-   - The app closes automatically after completion.
-
----
-
-## File Format Requirements
-
-- Both `.words` and `.means` files must have the **same number of lines**.
-- Encoding: UTF-8 recommended.
-- Empty lines will be ignored, but may cause mismatches.
+4. **完成后**
+   - 程序会自动显示正确率。
+   - 完成后窗口自动关闭。
 
 ---
 
-## Sample Files
+## 📄 文件要求
 
-You can find sample word lists in the `samples/` folder.
-
----
-
-## License
-
-BSD-3-Clause license
+- `.words` 与 `.means` 文件行数必须一致
+- 推荐使用 UTF-8 编码保存
+- 文件中不要包含多余的空行
 
 ---
 
-## Author
+## 📁 示例词书
 
-Made with 💙 by mikufans-d9o  
-For study use only. Suggestions welcome!
+可在 `samples/` 目录中找到范例词书文件。
+
+---
+
+## 🧑‍💻 开发者
+
+由 mikufans-d9o 制作  
+学习使用，欢迎交流！
+
+---
+
+## 📄 开源协议
+
+MIT License
+
